@@ -8,6 +8,6 @@ public class FizzTest {
     @Test 
 	public void test1() {
         FizzBuzz buzz = new FizzBuzz();
-        assertTrue("hello", buzz.add("hello"));
+        assertEquals("hello", buzz.add("hello"));
     }
 }
