@@ -5,9 +5,10 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class FizzTest {
+	
     @Test 
-	public void testSomeLibraryMethod() {
-        Library classUnderTest = new Library();
-        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
+	public void firstTest() {
+        FizzBuzz buzz = new FizzBuzz();
+        assertTrue("hey", buzz.check("hey"));
     }
 }
