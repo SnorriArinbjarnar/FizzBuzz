@@ -6,8 +6,8 @@ import static org.junit.Assert.*;
 
 public class FizzTest {
     @Test 
-	public void testSomeLibraryMethod() {
-        Library classUnderTest = new Library();
-        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
+	public void test1() {
+        FizzBuzz buzz = new FizzBuzz();
+        assertTrue("hello", buzz.add("hello"));
     }
 }
