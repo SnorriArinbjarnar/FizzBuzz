@@ -9,6 +9,6 @@ public class FizzTest {
     @Test 
 	public void firstTest() {
         FizzBuzz buzz = new FizzBuzz();
-        assertTrue("hey", buzz.check("hey"));
+        assertEquals("hey", buzz.check("hey"));
     }
 }
